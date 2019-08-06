@@ -20,7 +20,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Surfboards surfboards={surfboards} />
+                <Surfboards surfboards={this.state.surfboards} />
             </div>
         )
     } 
